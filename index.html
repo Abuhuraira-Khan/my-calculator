@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="calculator">
+        <input type="text" placeholder="0" id="cdisplay">
+
+        <div class="button">
+            <button onclick="acAll()" class="ex">AC</button>
+            <button onclick="delte()" class="ex" ><i class="fa-solid fa-delete-left"></i></button>
+            <button onclick="keypress('/')" class="bl">/</button>
+            <button onclick="keypress('*')" class="bl">*</button>
+       
+
+            <button onclick="keypress('7')">7</button>
+            <button onclick="keypress('8')">8</button>
+            <button onclick="keypress('9')">9</button>
+            <button onclick="keypress('-')" class="bl">-</button>
+
+
+            <button onclick="keypress('4')">4</button>
+            <button onclick="keypress('5')">5</button>
+            <button onclick="keypress('6')">6</button>
+
+  
+<br>
+            <button onclick="keypress('1')">1</button>
+            <button onclick="keypress('2')">2</button>
+            <button onclick="keypress('3')">3</button>
+
+
+
+            <button onclick="keypress('0')"style="width: 90px;">0</button>
+            <button onclick="keypress('.')">.</button>
+
+        </div>
+        <button onclick="keypress('+')" class="bl" style="height: 70px; position: relative;left: 150px;top: -149px;">+</button>
+        <button onclick="equal()" class="bl" style="height: 70px;position: relative;left: 100px;top: -75px;">=</button>
+
+    </div>
+
+
+    <script src="sc.js"></script>
+
+    
+</body>
+</html>
