@@ -107,5 +107,12 @@ input::placeholder{
 .calculator .ex:hover{
     background-color: #494747 !important;
 }
+@media screen and (max-width:445px) {
+
+  .calculator{
+    scale: 1.2;
+  }
+  
+}
 
 
