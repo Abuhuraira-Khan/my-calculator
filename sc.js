@@ -18,3 +18,8 @@ function equal(){
     var a =display.value;
 display.value=eval(a);
 }
+
+window.addEventListener("DOMContentLoaded", function(){
+            let load = document.querySelector("#main-spin");
+            load.style.display="none"
+        })
